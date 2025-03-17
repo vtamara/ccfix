@@ -1,0 +1,38 @@
+{
+  "author": "vtamara",
+  "bugs": {
+    "url": "https://github.com/celo-org/celo-composer/issues"
+  },
+  "description": "Custom Celo Composer project.",
+  "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+  "keywords": [
+    "celo-composer",
+    "celo"
+  ],
+  "license": "MIT",
+  "name": "ccfix",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celo-org/celo-composer.git"
+  },
+  "scripts": {
+    "react-app:dev": "yarn workspace @ccfix/react-app dev",
+    "react-app:build": "yarn workspace @ccfix/react-app build",
+    "react-app:start": "yarn workspace @ccfix/react-app start",
+    "react-app:lint": "yarn workspace @ccfix/react-app lint",
+    "hardhat:postinstall": "yarn workspace @ccfix/hardhat postinstall",
+    "hardhat:compile": "yarn workspace @ccfix/hardhat compile",
+    "hardhat:tsc": "yarn workspace @ccfix/hardhat tsc",
+    "hardhat:build": "yarn workspace @ccfix/hardhat build",
+    "hardhat:clean": "yarn workspace @ccfix/hardhat clean",
+    "hardhat:run:node": "yarn workspace @ccfix/hardhat run:node",
+    "hardhat:test": "yarn workspace @ccfix/hardhat test",
+    "hardhat:prettier": "yarn workspace @ccfix/hardhat prettier",
+    "hardhat:sync:abis": "yarn workspace @ccfix/hardhat sync:abis"
+  },
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}
